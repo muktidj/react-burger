@@ -1,11 +1,11 @@
 import React from 'react'
-
+import LogoBurger from '../../Logo/Logo'
 import classes from './Toolbar.module.css'
 
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
         <div>Menu</div>
-        <div>Logo</div>
+       <LogoBurger />
         <nav>
             ...
         </nav>
